@@ -2,17 +2,11 @@
  *
  */import java.util.Scanner;
 
-/**
- *
- * @author Asus
- */
+
 public class example1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
         Scanner input=new Scanner(System.in);
         System.out.println("Lütfen bir açı değeri giriniz");
         Double aci=input.nextDouble();
@@ -31,7 +25,7 @@ public class example1 {
             t+=J*Math.pow(x, 2*i)/F;
             System.out.printf("\nSeri açılımı ile hesaplanan değer:%.5f\n",t); 
           
-                
+            
             
         }
         
